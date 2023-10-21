@@ -28,29 +28,12 @@ const CategoryPage = async ({ params: { categoryId } }: Params) => {
 
   return (
     <div style={{ marginTop: "100px" }}>
-      {/* <div className="relative w-50 mx-auto" style={{ height: "200px" }}>
+      <div className="relative w-50 mx-auto" style={{ height: "200px" }}>
         <Image src={data.image.url} fill alt={data.name} objectFit="contain" />
       </div>
-      <h1 className="text-center my-6">
+      <h1 className="text-center text-white my-6">
         {data.name} ({total})
-      </h1> */}
-      <div
-        className="card w-96 bg-white-300 shadow-xl relative w-50 mx-auto"
-        style={{ height: "200px" }}
-      >
-        <div className="card-body">
-          <h2 className="card-title">{data.name}</h2>
-          <p>If a dog chews shoes whose shoes does he choose?</p>
-        </div>
-        <figure>
-          <Image
-            src={data.image.url}
-            alt={data.name}
-            objectFit="contain"
-            fill
-          />
-        </figure>
-      </div>
+      </h1>
       <ProductsRow products={products} />
     </div>
   );
