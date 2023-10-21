@@ -27,7 +27,7 @@ const CategoryPage = async ({ params: { categoryId } }: Params) => {
   });
 
   return (
-    <div>
+    <div style={{ marginTop: "100px" }}>
       <div className="relative w-50 mx-auto" style={{ height: "200px" }}>
         <Image src={data.image.url} fill alt={data.name} objectFit="contain" />
       </div>
