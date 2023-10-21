@@ -10,6 +10,9 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Najot e-commerce",
   description: "E-commerce website forever",
+  icons: {
+    icon: "https://cdn-icons-png.flaticon.com/128/2821/2821872.png",
+  },
 };
 
 export default function RootLayout({ children }: childrenType) {
