@@ -16,7 +16,7 @@ export const Navbar = () => {
           <div>
             <div className="flex items-center justify-between py-3 md:py-5 md:block">
               <NavLink href="/">
-                <h2 className="text-2xl text-sky-600 font-bold">LOGO</h2>
+                <h2 className="text-2xl text-sky-600 font-bold">Vodiy Parfume</h2>
               </NavLink>
 
               <div className="md:hidden">
